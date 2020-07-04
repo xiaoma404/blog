@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-//寫著玩123123
+//寫著玩12312366666
 try {
     $str = system("cd /data/gitspace/build && sudo /usr/local/git/bin/git pull");
     echo $str."\n";
