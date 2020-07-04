@@ -1,5 +1,5 @@
 <?php
-//寫著玩11123
+//寫著玩
 try {
     system("cd /data/gitspace/build && sudo git pull");
     echo "同步成功!";
