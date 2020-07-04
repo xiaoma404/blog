@@ -1,5 +1,6 @@
 <?php
-//寫著玩
+error_reporting(E_ALL);
+//寫著玩123
 try {
     $str = system("cd /data/gitspace/build && sudo git pull");
     echo $str."\n";
