@@ -82,14 +82,14 @@ $this->widget('Widget_Contents_Post_Recent','pageSize=5')->to($newcontents);
 					<a href="<?php $this->options->adminUrl('login.php'); ?>"><?php _e('登录'); ?></a>
 				</li>
             <?php endif; ?>
-				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">
-					<a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a>
-				</li>
-				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">
-					<a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a>
-				</li>
-				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">
-					<a href="http://www.typecho.org">Typecho</a>
+<!--				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">-->
+<!--					<a href="--><?php //$this->options->feedUrl(); ?><!--">--><?php //_e('文章 RSS'); ?><!--</a>-->
+<!--				</li>-->
+<!--				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">-->
+<!--					<a href="--><?php //$this->options->commentsFeedUrl(); ?><!--">--><?php //_e('评论 RSS'); ?><!--</a>-->
+<!--				</li>-->
+<!--				<li class="a-div-list a-m-t-1 a-m-l-2 a-p-b-1">-->
+<!--					<a href="http://www.typecho.org">Typecho</a>-->
 				</li>
         </div>
     </div>
